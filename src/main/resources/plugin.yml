@@ -1,0 +1,7 @@
+name: Lobby
+version: '${version}'
+main: jp.iceserver.lobby.Lobby
+api-version: 1.18
+authors: [ Minidon ]
+description: ロビーサーバーのためだけに作るプラグイン
+website: https://github.com/IceServerLab/Lobby
