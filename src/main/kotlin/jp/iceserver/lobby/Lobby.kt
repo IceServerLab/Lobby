@@ -1,5 +1,7 @@
 package jp.iceserver.lobby
 
+import jp.iceserver.lobby.listeners.*
+
 class Lobby : AbstractLobby()
 {
     companion object
@@ -10,5 +12,9 @@ class Lobby : AbstractLobby()
     override fun onEnable()
     {
         plugin = this
+
+        registerListeners(
+            PlayerJoin(), PlayerMove()
+        )
     }
 }
