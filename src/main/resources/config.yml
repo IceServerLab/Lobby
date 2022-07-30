@@ -1,0 +1,11 @@
+#########################################################
+# VaultCraft Configuration File
+# Created by M1n1don
+# - Website: https://www.iceserver.jp/
+# - Discord: https://discord.gg/B4SYTyW
+# - GitHub: https://github.com/IceServerLab/Lobby
+##
+
+# world:
+#   ロビーワールドの名前
+world: "world"
