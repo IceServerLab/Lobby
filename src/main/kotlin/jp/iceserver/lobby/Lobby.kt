@@ -1,8 +1,6 @@
 package jp.iceserver.lobby
 
-import org.bukkit.plugin.java.JavaPlugin
-
-class Lobby : JavaPlugin()
+class Lobby : AbstractLobby()
 {
     companion object
     {
